@@ -17,4 +17,8 @@ def get_user_status(age):
 
 # 3. ФИКС: Обработка ошибок (блок try-except)
 if __name__ == "__main__":
-    process()
+    try:
+        process()
+    except KeyboardInterrupt:
+        print("\nПрограмма принудительно завершена")
+        sys.exit(0)
