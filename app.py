@@ -1,8 +1,9 @@
 import sys
 
+# 1. РЕФАКТОРИНГ: Переименовали переменные (было 'u' и 'res', стало 'user_name' и 'greeting')
 def process():
-    u = input("Введите ваше имя: ")
-    if len(u) < 3:
+    user_name = input("Введите ваше имя: ")
+    if len(user_name) < 3:
         print("Ошибка: слишком короткое имя!")
         return
     res = f"Привет, {u}!"
