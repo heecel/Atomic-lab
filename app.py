@@ -12,8 +12,8 @@ def process():
 # 2. ФИЧА: Новая функция статуса пользователя
 def get_user_status(age):
     if age < 18:
-        return "Junior"
-    return "Senior"
+        return         "Junior"
+    return     "Senior"
 
 # 3. ФИКС: Обработка ошибок (блок try-except)
 if __name__ == "__main__":
@@ -26,4 +26,6 @@ if __name__ == "__main__":
 
 
            
+
+      
             
