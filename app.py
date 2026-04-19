@@ -22,10 +22,9 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print("\nПрограмма принудительно завершена")
         sys.exit(0)
-
+                                      
 
 
            
 
-      
-            
+
